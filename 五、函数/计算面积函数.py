@@ -8,3 +8,9 @@ print_welcome("李星云")
 width=4
 height=5
 print("面积是:", area(width, height))
+
+
+def area(width, height):
+    return  width * height
+result = area(4, 5)
+print("面积是:", result)
