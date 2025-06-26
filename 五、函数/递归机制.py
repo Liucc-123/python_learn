@@ -54,7 +54,7 @@ def eatPeach(day: int) -> int:
 
 
 # 第一天还有多少个桃子，也即最初有多少个桃子
-# print(eatPeach(1))
+print(eatPeach(1))
 
 
 ## 题目三：求函数值，已知 f(1) = 3; f(n)= 2*f(n-1)+1；请使用递归的思想，求出 f(n)的值？
@@ -90,5 +90,5 @@ def hanoi_tower(num, a, b, c):
         hanoi_tower(num - 1, b, a, c)
 
 # 3个汉诺塔的移动顺序
-hanoi_tower(3, "A", "B", "C")
+# hanoi_tower(3, "A", "B", "C")
 
