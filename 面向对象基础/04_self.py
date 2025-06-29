@@ -30,7 +30,7 @@ class Person:
     age = None
 
     def compareTo(self, other):
-        return self.name == other.name and self.age == other.age
+        return self.name == other.__name and self.age == other.age
 
 
 person1 = Person()
